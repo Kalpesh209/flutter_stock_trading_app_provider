@@ -2,21 +2,21 @@
 
 A new Flutter project.
 
-// Success
+ Success
 AppHelperWidgets.showSnackBar(
 title: AppStrings.success,
 message: message,
 messageType: AppStrings.responseTypeSuccess,
 );
 
-// Error
+ Error
 AppHelperWidgets.showSnackBar(
 title: AppStrings.error,
 message: message,
 messageType: AppStrings.responseTypeError,
 );
 
-// Warning
+ Warning
 AppHelperWidgets.showSnackBar(
 title: AppStrings.warning,
 message: AppStrings.pleaseProvideValidReferralCode,
@@ -26,13 +26,13 @@ messageType: AppStrings.responseTypeWarning,
 // To analyze a buildSize
 flutter build apk --release --target-platform android-arm64 --analyze-size
 
-// To generate a split abi
+ To generate a split abi
 flutter build apk --release --split-per-abi
 
-// To Generate new models
+ To Generate new models
 dart run build_runner build --delete-conflicting-outputs
 
-// Text Style
+ Text Style
 style: AppTextStyles.poppinsMedium.copyWith(
             fontSize: AppFontSize.fontSize14,
             fontWeight: AppFontWeight.fontWeight600,
